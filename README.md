@@ -4,8 +4,8 @@ API untuk test interview **PT. Digdaya Olah Teknologi (DOT) Indonesia**.
 ## Instalasi
 1. Clone repository berikut dan pastikan sudah terinstall **.NET 8**.
 2. setelah di clone, jangan lupa untuk merestore nuget packagenya.
-3. Restore file backup **SQL Server** di **DOT/REST_API/db.bak**, buat nama database yang di inginkan
-4. Ubah connection string di **DOT/REST_API/appsettings.Development.json** jika **debugging atau dalam tahap development** atau **DOT/REST_API/appsettings.json** saat masuk ke **production** sesuai dengan nama database yang direstore.
+3. Restore file backup **SQL Server** di **/db.bak**, buat nama database yang di inginkan
+4. Ubah connection string di **/REST_API/appsettings.Development.json** jika **debugging atau dalam tahap development** atau **/REST_API/appsettings.json** saat masuk ke **production** sesuai dengan nama database yang direstore.
 
 ## Design Pattern
 Design pattern yg digunakan yaitu:  
